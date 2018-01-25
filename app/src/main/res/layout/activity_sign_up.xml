@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.kirtanaphatnani.kronos.SignUp">
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="40sp"
+        android:hint="Name"
+        android:id="@+id/input_Name"
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="40sp"
+        android:hint="ID"
+        android:id="@+id/input_ID"
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="40sp"
+        android:hint="Password"
+        android:id="@+id/input_Password"
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="40sp"
+        android:hint="Confirm Password"
+        android:id="@+id/input_Confirm_Passoword"
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="40sp"
+        android:hint="Phone Number"
+        android:id="@+id/input_Contact"
+        />
+    <RadioButton
+        android:layout_width="match_parent"
+        android:layout_height="40sp"
+        android:text="HMC"
+        android:id="@+id/HMC"
+        />
+    <RadioButton
+        android:layout_width="match_parent"
+        android:layout_height="40sp"
+        android:text="CMC"
+        android:id="@+id/CMC"
+        />
+    <RadioButton
+        android:layout_width="match_parent"
+        android:layout_height="40sp"
+        android:text="Academic Committee"
+        android:id="@+id/AC"
+         />
+    <RadioButton
+        android:layout_width="match_parent"
+        android:layout_height="40sp"
+        android:text="SBG"
+        android:id="@+id/SBG"
+        />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="40sp"
+        android:text="DONE"
+        android:id="@+id/btn_done"
+    />
+
+</LinearLayout>

@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.kirtanaphatnani.kronos.addEvent"
+    android:weightSum="1">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="KRONOS"
+        android:inputType="text"
+        android:textSize="40sp"
+        android:textColor="#FFFFFF"
+        android:background="#275EAA"
+        android:textStyle="bold"
+        android:textAlignment="center"
+        />
+    <EditText
+        android:id="@+id/desc"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="60sp"
+        android:hint="Title"
+        android:textColor="#84AAF1"
+        android:inputType="text"
+        android:textSize="30sp" />
+
+    <EditText
+        android:id="@+id/ip_date"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="120sp"
+        android:hint="Event Date"
+        android:textColor="#6495FF"
+        android:inputType="date"
+        android:textSize="30sp"
+        />
+    <EditText
+        android:id="@+id/ip_time"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="180sp"
+        android:hint="Event Time"
+        android:textColor="#84AAF1"
+        android:inputType="time"
+        android:textSize="30sp"
+        />
+    <RadioButton
+        android:id="@+id/B_I"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="240sp"
+        android:textSize="20sp"
+        android:text="B.Tech I"/>
+    <RadioButton
+        android:id="@+id/B_II"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="270sp"
+        android:textSize="20sp"
+        android:text="B.Tech II"/>
+    <RadioButton
+        android:id="@+id/B_III"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="300sp"
+        android:textSize="20sp"
+        android:text="B.Tech III"/>
+    <RadioButton
+        android:id="@+id/B_IV"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="330sp"
+        android:textSize="20sp"
+        android:text="B.Tech IV"/>
+    <RadioButton
+        android:id="@+id/M_I"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="360sp"
+        android:textSize="20sp"
+        android:text="M.Tech I"/>
+    <RadioButton
+        android:id="@+id/M_II"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="390sp"
+        android:textSize="20sp"
+        android:text="M.Tech II"/>
+    <RadioButton
+        android:id="@+id/MD_I"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="420sp"
+        android:textSize="20sp"
+        android:text="M.Des I"/>
+    <RadioButton
+        android:id="@+id/MD_II"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="450sp"
+        android:textSize="20sp"
+        android:text="M.Des II"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:textSize="20sp"
+        android:layout_marginTop="480sp"
+        android:text="Publish"
+        android:background="#84AAF1"
+        />
+
+
+</RelativeLayout>
+
+
